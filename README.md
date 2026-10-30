@@ -13,3 +13,7 @@ Then visit http://localhost:8000. Reload the page after editing to review the ch
 ## Audio and editing
 
 Keep the audio filename aligned with the page reference if replacing `your.mp3`. Browser autoplay rules may require the visitor to tap a control before audio starts, so try the controls in the browser when reviewing audio changes.
+
+## Hosting
+
+This is a static page. A static host can serve the project files; keep `your.mp3` in the project root so the page can find it.
