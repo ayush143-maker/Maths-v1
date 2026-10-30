@@ -8,8 +8,8 @@ Open `index.html` in a modern browser. Alternatively, run a local server from th
 
     python -m http.server 8000
 
-Then visit http://localhost:8000.
+Then visit http://localhost:8000. Reload the page after editing to review the change.
 
 ## Audio and editing
 
-Keep the audio filename aligned with the page reference if replacing `your.mp3`. Browser autoplay rules may require the visitor to tap a control before audio starts.
+Keep the audio filename aligned with the page reference if replacing `your.mp3`. Browser autoplay rules may require the visitor to tap a control before audio starts, so try the controls in the browser when reviewing audio changes.
