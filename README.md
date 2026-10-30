@@ -4,11 +4,11 @@ A playful maths-themed music and quote microsite titled “Teacher: Maths is not
 
 ## Preview locally
 
-Open `index.html` in a modern browser, or serve the repository over HTTP:
+Open `index.html` in a modern browser. Alternatively, run a local server from the project folder:
 
     python -m http.server 8000
 
-Visit http://localhost:8000.
+Then visit http://localhost:8000.
 
 ## Audio and editing
 
