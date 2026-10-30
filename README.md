@@ -17,3 +17,13 @@ Then visit <http://localhost:8000>.
 Edit the message and page presentation in `index.html`. Its Google Fonts links are external; changing or removing them may change the typography. If replacing `your.mp3`, keep its filename aligned with the reference in `index.html`, or update that reference to match the new filename and location. Keep the audio file in the project folder when hosting the static page so the relative path continues to work.
 
 Browser autoplay rules may require a visitor to tap a control before audio starts; use the controls when checking a replacement file.
+
+## Manual review checklist
+
+This is a checklist of actions to perform, not a record of verified results.
+
+- Open the root `index.html` in a browser, or use the local preview steps above, and review the page content.
+- Check that the audio reference in `index.html` points to `your.mp3` in the project folder and that the file is available at that path.
+- Use the play and replay controls. Check whether the audio starts after interaction and whether replay behaves as intended; browser autoplay rules may require a tap.
+- Inspect the page at a narrow mobile-sized viewport and a wide desktop-sized viewport. Check that the message and controls are visible and usable.
+- If you changed the Google Fonts links, review the page typography with those changes in place.
