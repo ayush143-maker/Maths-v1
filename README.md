@@ -1,6 +1,6 @@
 # Maths-v1
 
-A playful maths-themed music and quote microsite titled “Teacher: Maths is not Toxic.” The page pairs a short message with play and replay controls.
+A playful maths-themed music and quote microsite titled “Teacher: Maths is not Toxic.” The page pairs a short message with play and replay controls for its audio.
 
 ## Preview locally
 
