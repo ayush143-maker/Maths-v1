@@ -1,6 +1,6 @@
 # Maths-v1
 
-A playful maths-themed music and quote microsite titled “Teacher: Maths is not Toxic.” The single page in `index.html` pairs a short message with play and replay controls for the local audio asset `your.mp3`.
+A playful maths-themed music and quote microsite titled “Teacher: Maths is not Toxic.” The root `index.html` pairs a short message with play and replay controls for the local audio asset `your.mp3`, also in the project root.
 
 ## Preview locally
 
