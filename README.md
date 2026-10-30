@@ -1,19 +1,15 @@
 # Maths-v1
 
-A small math-themed music/quote microsite titled “Teacher: Maths is not Toxic”, with play and replay controls. It is a creative web experiment rather than a maths lesson.
+Maths-v1 is a playful maths-themed music and quote microsite titled **“Teacher: Maths is not Toxic.”** It treats the subject as a creative visual prompt rather than a lesson, pairing a short message with simple play and replay controls.
 
-## Run locally
+## Preview locally
 
-Open index.html in a modern browser. If browser restrictions block local assets or APIs, serve the folder over HTTP.
+This is a standalone HTML page. Open index.html in a modern browser, or serve the repository over HTTP:
 
-## Structure and assets
+    python -m http.server 8000
 
-`index.html` is the primary entry point. Keep linked images, audio, scripts, and styles in their existing relative locations; renaming files may break references.
+Then visit http://localhost:8000.
 
-## Preview and deployment
+## Audio and editing
 
-Open the page in a modern browser. If local-file behavior is restricted, start a simple HTTP server from this folder and open the local address in your browser. For static hosting, publish the correct root folder and check asset paths after deployment.
-
-## Making changes
-
-Test the page after edits and check both phone-sized and desktop-sized viewports. Confirm that buttons and other visible interactions work in the deployed version as well as locally.
+The repository includes your.mp3 as a local audio asset. Keep the filename and its reference aligned if you replace the track. Browser autoplay rules may prevent audio from starting until the visitor taps a control, so test the playback flow after making changes.
