@@ -27,3 +27,13 @@ This is a checklist of actions to perform, not a record of verified results.
 - Use the play and replay controls. Check whether the audio starts after interaction and whether replay behaves as intended; browser autoplay rules may require a tap.
 - Inspect the page at a narrow mobile-sized viewport and a wide desktop-sized viewport. Check that the message and controls are visible and usable.
 - If you changed the Google Fonts links, review the page typography with those changes in place.
+
+## Accessibility review checklist
+
+These are future review checks, not verified accessibility results.
+
+- Use Tab and Shift+Tab to check whether the play and replay controls and any other interactive elements can be reached and operated without a pointer. Check that focus order is sensible.
+- Check that each focused control has a clearly visible focus indicator, including while using the audio controls.
+- Review the play and replay controls for meaningful accessible names that communicate their actions. Check whether the message is available as text, rather than conveyed only through an image or other visual treatment.
+- Check the message and control-label contrast against their backgrounds, including at narrow viewports and with the linked fonts unavailable.
+- If the page includes moving or animated visual effects, check their behavior with the operating system's reduced-motion preference enabled. Review the audio controls separately so visitors can choose whether to start or replay audio.
