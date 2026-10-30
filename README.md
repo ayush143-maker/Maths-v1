@@ -85,3 +85,9 @@ These are future review checks, not verified accessibility results.
 - [ ] Review controls for accessible names that communicate their actions, and check that the message is available as text.
 - [ ] Check message and control-label contrast, including with the linked fonts unavailable.
 - [ ] If the page includes moving or animated effects, check them with the operating system’s reduced-motion preference enabled. Ensure visitors can choose whether to start or replay audio.
+
+## Final release review
+
+- Open `index.html` from the published location and confirm the page loads as expected.
+- Test with network access available and keep a sensible fallback for externally loaded resources.
+- Review the published result once on a narrow screen and once on a wider screen; treat this as a release check, not an automated test report.
