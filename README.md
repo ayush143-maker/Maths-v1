@@ -20,7 +20,7 @@ Browser autoplay rules may require a visitor to tap a control before audio start
 
 ## Troubleshooting
 
-Use these as diagnostic checks; they do not indicate known problems.
+These are diagnostic checks, not reports of known problems.
 
 1. Confirm you opened the root `index.html`, the page’s entry point.
 2. If audio does not load, check its reference in `index.html` against the local `your.mp3` file. Preserve the relative path and check filename capitalization, especially when hosted.
@@ -32,6 +32,10 @@ Use these as diagnostic checks; they do not indicate known problems.
 The listed root files contain no `.env.example` or separate configuration file. This static page has no server-side environment in which to keep secrets: anything placed in its HTML or delivered browser files can be viewed by visitors. Do not put passwords, tokens, or other secrets in the page or tracked files.
 
 The page and `your.mp3` are project content. Review them before publishing, and do not include private information or audio you do not have permission to distribute.
+
+## Contributor handoff
+
+Keep changes scoped to the intended page or audio. Preserve filenames and relative references, or update the references affected by a rename or move. Before publishing, briefly describe what changed and manually review the page and audio references. This is a handoff checklist, not a record of completed checks.
 
 ## Review checklist
 
