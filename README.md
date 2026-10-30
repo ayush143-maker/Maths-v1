@@ -12,6 +12,8 @@ python -m http.server 8000
 
 Then visit <http://localhost:8000>.
 
-## Audio
+## Personalize the page and audio
 
-If replacing `your.mp3`, keep its filename aligned with the reference in `index.html`. Browser autoplay rules may require a visitor to tap a control before audio starts. Keep the audio file in the project folder when hosting the static page so the page can find it.
+Edit the message and page presentation in `index.html`. Its Google Fonts links are external; changing or removing them may change the typography. If replacing `your.mp3`, keep its filename aligned with the reference in `index.html`, or update that reference to match the new filename and location. Keep the audio file in the project folder when hosting the static page so the relative path continues to work.
+
+Browser autoplay rules may require a visitor to tap a control before audio starts; use the controls when checking a replacement file.
